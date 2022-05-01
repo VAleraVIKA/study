@@ -309,7 +309,25 @@ p {
 
 div * {
     color: chartreuse;
-}*/
+}
 div > * {
     color: red;
+}*/
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color:green;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: black;
 }
