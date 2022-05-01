@@ -199,7 +199,7 @@
 /*i {color: red}*/
 /*p i{color: cyan}*/
 /*ul{color: red}*/
-.odd{color: red}
+/*.odd{color: red}
 .eve{color: green}
 .eee{color: red}
 .xxx{font-size: 30px}
@@ -213,3 +213,103 @@
 .block2{color: blue}
 .block3{color: blueviolet}
 
+.eee h2 {
+    color: red;
+}
+
+.eee h3.bbb {
+    color: blueviolet;
+}
+
+p.bbb {
+    color: green;
+}
+
+p .bbb {
+    color: red;
+}
+
+.eee p.bbb {
+    color: red;
+}
+
+.eee p .bbb {
+    color: blue;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.large {
+    color: red;
+    font-size: 30px
+}
+
+.small {
+    font-size: 20px;
+    color: green;
+}
+
+#elem1 {
+    color: red
+}
+
+#elem2 {
+    color: green
+}
+
+#elem3 {
+    color: cornflowerblue
+}
+
+#elem h2 {
+    color: blue
+}
+
+#elem p {
+    color: red
+}
+
+li {
+    font-size: x-large
+}
+
+.eee.zzz.ccc {
+    font-style: italic
+}
+
+.zzz {
+    color: red
+}
+
+h2.zzz {
+    color: red;
+}
+
+h2 .zzz {
+    color: darkblue;
+}
+
+.bbb.xxx {
+    color: brown;
+}
+
+p {
+    color: red;
+}
+
+* {
+    color: blue;
+}
+
+div * {
+    color: chartreuse;
+}*/
+div > * {
+    color: red;
+}
