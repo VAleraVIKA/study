@@ -5,3 +5,11 @@ h2.bbb {
 #elem ~ li {
     color: blue;
 }
+
+div * {
+    color: chartreuse;
+}
+
+main {
+    color: red;
+}
