@@ -312,22 +312,42 @@ div * {
 }
 div > * {
     color: red;
-}*/
+}
 
 a:link {
-    color: blue;
+    color: cornflowerblue;
 }
 
 a:visited {
-    color:green;
+    color:cornflowerblue;
 }
 
 a:hover {
-    color: red;
+    color: cornflowerblue;
     text-decoration: none;
 }
 
 
 a:active {
-    color: black;
+    color: cornflowerblue;
+}
+a {
+    color: red;
+}
+a:hover {
+    text-decoration: none;
+}
+
+#block a.zzz {
+    color: red;
+}
+#block a.zzz:hover {
+    text-decoration: none;
+}
+*/
+.block a.zzz {
+    color: red;
+}
+.block a.zzz:hover {
+    text-decoration: none;
 }
