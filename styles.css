@@ -482,10 +482,18 @@ border-bottom: red 2px ridge;
       color: white;
       background-color: orange;
   }
- */
+
 #elem {
     width: 200px;
     height: 200px;
     border-radius: 300px;
     border: 1px solid green;
+}
+
+ */
+#elem {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 20px 30px 40px;
 }
