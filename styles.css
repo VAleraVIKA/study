@@ -375,7 +375,7 @@ p{
     width: 50%;
 margin: 0auto;
 text-align: justify;
-}*/
+}
 #elem {
     transition-duration: 2s;
     transition-property: width;
@@ -385,4 +385,24 @@ text-align: justify;
 }
 #elem:hover {
     width: 400px;
+}
+
+
+p:first-of-type{color: red;
+}
+
+
+h2:last-of-type{color: red;
+}
+
+
+h2:nth-of-type(2){color: red;
+}
+
+
+h2:nth-last-of-type(2){color: red;
+}
+
+ */
+h2:nth-last-of-type(even){color: red;
 }
