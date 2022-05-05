@@ -1,3 +1,4 @@
+/*
 h2.bbb {
     color: red;
 }
@@ -12,4 +13,57 @@ div * {
 
 main {
     color: red;
+}
+
+
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color:green;
+}
+
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: green;
+}
+
+
+li:nth-child(3){color:red;
+}
+
+
+li:nth-child(odd) {
+    color: red;
+}
+
+li:nth-child(even) {
+    color: green;
+}
+
+
+li:nth-child(3) {
+    color: red;
+}
+
+li:nth-child(6) {
+    color: red;
+}
+
+li:nth-child(9) {
+    color: red;
+}
+
+
+li:nth-last-child(2){color: red;
+
+li:only-child{color: red;
+}
+
+ */
+li:empty{color: red;
 }

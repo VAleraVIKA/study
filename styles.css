@@ -344,10 +344,45 @@ a:hover {
 #block a.zzz:hover {
     text-decoration: none;
 }
-*/
+
 .block a.zzz {
     color: red;
 }
 .block a.zzz:hover {
     text-decoration: none;
+}
+
+p::first-letter
+{color: blue;
+ font-size: 27px;
+}
+h2::first-letter
+{color: chartreuse;
+font-size: 40px;
+}
+p::first-line {
+    color: red;
+}
+
+p {
+    width: 300px;
+    text-align: justify;
+}
+
+ p::first-line{color:chartreuse;
+ }
+p{
+    width: 50%;
+margin: 0auto;
+text-align: justify;
+}*/
+#elem {
+    transition-duration: 2s;
+    transition-property: width;
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+}
+#elem:hover {
+    width: 400px;
 }
