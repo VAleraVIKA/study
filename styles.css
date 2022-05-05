@@ -403,6 +403,14 @@ h2:nth-of-type(2){color: red;
 h2:nth-last-of-type(2){color: red;
 }
 
- */
+
 h2:nth-last-of-type(even){color: red;
+}
+
+
+li:not(:first-child){color: red;
+}
+
+ */
+li:not(:last-child){color: red;
 }
