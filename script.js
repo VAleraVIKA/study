@@ -15,4 +15,10 @@ let a = 10;
 let b = 5;
 let c = a + b;
 alert(c);
+
+let a = 1.5;
+let b = 0.75;
+alert(a + b);
 */
+let  a = -100;
+alert(a);
