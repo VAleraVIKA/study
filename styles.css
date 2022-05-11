@@ -490,10 +490,27 @@ border-bottom: red 2px ridge;
     border: 1px solid green;
 }
 
- */
+
 #elem {
     width: 200px;
     height: 200px;
     border: 1px solid green;
     border-radius: 10px 20px 30px 40px;
+}
+
+
+#elem {
+    width: 70px;
+    height: 70px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+ */
+#elem {
+    background-image: url("Без названия.jpg");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
 }
