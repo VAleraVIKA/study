@@ -24,6 +24,21 @@ alert(a);
 let a = 13;
 let b = 5;
 alert(a % b);
-*/
 let a = 10;
 alert(a ** 2);
+let a = 3 * 2 ** 3;
+alert(a);
+
+let a = "vika";
+alert(a);
+let str = "nesterova";
+alert(str);
+
+let str = "!!!";
+alert(str + "!!!");
+
+let str1 = "java";
+let str2 = "script";
+alert(str1 + str2);
+*/
+alert("defender".length);
