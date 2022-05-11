@@ -33,12 +33,14 @@ let a = "vika";
 alert(a);
 let str = "nesterova";
 alert(str);
-
 let str = "!!!";
 alert(str + "!!!");
-
-let str1 = "java";
-let str2 = "script";
-alert(str1 + str2);
+let str1 = 'xxx';
+let  str2 = 'yyy';
+let txt = `aaa ${str1} bbb ${str2} ccc`;
+alert(txt);
 */
-alert("defender".length);
+let str =`a
+b
+c`;
+alert(str);
