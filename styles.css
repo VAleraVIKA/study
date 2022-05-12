@@ -587,4 +587,25 @@ ul{
     width:150px;
 }
 
+
+#parent{width: 300px;
+border: 1px solid orange;
+}
+#child{height: 200px;
+border: 1px dashed blue;
+margin:70px 90px;
+}
+
  */
+#elem{padding: 100px;
+width: 600px;
+border: 1px dashed blue;
+text-align: justify;
+    color: green;
+}
+#elem2{padding: 60px;
+width: 100px;
+border: 1px solid blue;
+text-align: center;
+color: darkred;
+}
