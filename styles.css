@@ -506,11 +506,32 @@ border-bottom: red 2px ridge;
     border-radius: 50%;
 }
 
- */
 #elem {
-    background-image: url("Без названия.jpg");
-    background-repeat: no-repeat;
+    background-image: url("bg (1).png");
+    width: 1000px;
+    height: 1000px;
+
+}
+
+
+#elem{
+    background-repeat: repeat-y;
+    background-image: url("bg (1).png");
     width: 400px;
-    height: 300px;
-    border: 3px solid black;
+    height: 600px;
+    border: 5px ;
+}
+
+ */
+body {
+    background-attachment: scroll;
+    background-image: url("bg (1).png")
+}
+
+#elem {
+    width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 20px;
 }
