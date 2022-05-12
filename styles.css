@@ -549,4 +549,23 @@ ul{
     list-style-type:upper-alpha;
 }
 
+
+#parent {
+    width: 500px;
+    border: 1px dashed red;
+}
+
+#child {
+    height: 300px;
+    border: 1px solid green;
+    margin: 30px;
+
+}
+#elem{
+    border:1px solid blue;
+    margin:15px;
+    height: 250px;
+
+}
+
  */
