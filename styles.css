@@ -568,4 +568,23 @@ ul{
 
 }
 
+
+#parent{
+    width: 300px;
+    border:1px solid red;
+    height: 400px;
+}
+
+#child{
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 200px;
+    margin-left: 20px;
+
+
+    height: 150px;
+    border: 1px solid black;
+    width:150px;
+}
+
  */
