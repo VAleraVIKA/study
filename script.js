@@ -39,8 +39,24 @@ let str1 = 'xxx';
 let  str2 = 'yyy';
 let txt = `aaa ${str1} bbb ${str2} ccc`;
 alert(txt);
-*/
-let str =`a
+let str =`aа
 b
 c`;
-alert(str);
+
+let num1= 123;
+let num2 = 456;
+console.log(num1, num2);
+
+let num = 123;
+console.log(num)
+
+let num1=165;
+let num2=276;
+let num3=345;
+console.log(num1, num2,num3);
+
+let num1=123;
+let num2=543;
+console.log(num1);
+console.log('num2');
+*/
