@@ -695,4 +695,28 @@ span{
     margin: 10px auto;
 }
 
+
+.parent {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+.child {
+    border: 1px solid green;
+}
+
+
+.parent {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+
+
+.parent{
+    text-align: right;
+    padding: 1px 0;
+    border: 1px solid red;
+}
+
  */
