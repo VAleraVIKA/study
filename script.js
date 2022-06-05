@@ -59,4 +59,9 @@ let num1=123;
 let num2=543;
 console.log(num1);
 console.log('num2');
-*/
+
+const PI=3.14;
+console.log(PI);
+ */
+let a = '' + 3 + 1;
+alert(a);
