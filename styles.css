@@ -660,7 +660,7 @@ a {
 
 }
 
- */
+
 span{
     width: 100px;
     height: 100px;
@@ -668,3 +668,31 @@ span{
     border: 4px solid green;
     display: inline-block;
 }
+
+
+.parent {
+    border: 1px solid red;
+    height: 600px;
+}
+
+.child {
+    height: 300px;
+    width: 400px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+.child2{
+    height: 100px;
+    width: 200px;
+    border: 1px solid green;
+    margin: 10px auto;
+
+}
+.child3{
+    height:80px;
+    width: 50px;
+    border: 1px solid green;
+    margin: 10px auto;
+}
+
+ */
