@@ -105,3 +105,4 @@ let num2=456;
 alert (num1 + num2);
 
  */
+alert( String(true) + Number(true) );
