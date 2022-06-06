@@ -719,4 +719,82 @@ span{
     border: 1px solid red;
 }
 
+
+.parent{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid red;
+}
+.child{
+    display:inline-block ;
+    margin: 5px auto;
+    border: 1px solid green;// задача 1
+}
+
+
+.parent{
+    padding: 10px;
+    border: 1px solid saddlebrown;
+    text-align: right;
+}
+.child{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red; // задача 2
+}
+
+
+
+
+.parent{
+    padding: 10px;
+    border: 1px solid red;
+    text-align: right;
+
+}
+.child{
+
+    display:inline-block;
+    border: 5px solid deeppink;// задача 3
+}
+
+
+.parent{
+    border: 1px solid red;
+    text-align: right;
+
+}
+.child{
+    display: inline-block;
+    margin: 50px; // задача 4
+}
+
+
+.parent {
+    text-align: right;
+    padding: 10px 0;
+    border: 1px solid red;
+}
+.child {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid green; // задача 5
+}
+
+
+.parent{
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid green;
+
+}
+.child{
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid red ; // задача 6
+}
+
  */
+
+
+
