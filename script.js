@@ -84,4 +84,24 @@ let a=parseFloat("5.5px");
 let b=parseFloat("6.25px");
 alert("11.75px");
 
+
+let num1=6;
+let num2=4;
+alert(String(num1) + String(num2));
+
+
+let a=parseFloat("5.5px");
+let b=parseFloat("6.25px");
+let sum=a + b;
+alert (sum +"px");// выделение чисел//
+
+
+let num= 123;
+alert(String(num).length);
+
+
+let num1= 123;
+let num2=456;
+alert (num1 + num2);
+
  */
