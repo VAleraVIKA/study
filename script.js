@@ -62,6 +62,18 @@ console.log('num2');
 
 const PI=3.14;
 console.log(PI);
- */
+
 let a = '' + 3 + 1;
 alert(a);
+
+
+let a=Number("10");
+let b=Number("20");
+alert(a+b);
+
+let a=Number("2");
+let b=Number("3");
+alert (a+b);
+
+ */
+
