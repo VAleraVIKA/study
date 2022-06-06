@@ -75,5 +75,13 @@ let a=Number("2");
 let b=Number("3");
 alert (a+b);
 
- */
 
+let a=parseFloat("5px");
+let b=parseFloat("6px");
+alert(a+b);
+
+let a=parseFloat("5.5px");
+let b=parseFloat("6.25px");
+alert("11.75px");
+
+ */
