@@ -166,8 +166,9 @@ alert(test[0] * test[1] * test [2] * test[3] * test[4]);
 
  // задача 4
 
-*/
-let str = String(12345)
-alert (Number(str[4])+ Number(str[3]) + Number(str[2]) + Number(str[1]) + Number(str[0]))
+
+let test = String(12345);
+alert ( test[4] + test[3] + test[2] + test[1] + test[0])
 
 
+ */
