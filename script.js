@@ -104,5 +104,8 @@ let num1= 123;
 let num2=456;
 alert (num1 + num2);
 
+
+let test = Boolean(1 / 0);
+alert(test);
+
  */
-alert( String(true) + Number(true) );
