@@ -126,26 +126,9 @@ alert(str[num]);
 
 
 //получение символов : задача 2
-let str ='abcde';
-let num=4;
-alert(str[num]);
-
-let str ='abcde';
-let num=3;
-alert(str[num]);
-
-let str='abcde'
-let num=2;
-alert(str[num]);
-
-let str ='abcde';
-let num=1;
-alert(str[num]);
-
 let str='abcde';
-let num=0;
-alert(str[num])
-
+let reverse= str[4] + str[3] + str[2] + str[1] + str[0];
+alert(reverse);
 
 // получение символов : задача 3
 let str='abcde';
@@ -169,18 +152,22 @@ let str='abcde';
 let last=str.length -3;
 alert(str[str.length -3]);
 
- */
+// стоки с цифрами: задача 1
+let test = '12345';
+alert(test[0] + test[4]);
 
+//обращение к цифрам числа: задача 2
+let test =String(12345);
+alert(Number(test[0]) + Number(test[1]) + Number(test[2]) + Number(test[3]) + Number(test[4]))
 
+//задача 3
+let test = String(12345);
+alert(test[0] * test[1] * test [2] * test[3] * test[4]);
 
+ // задача 4
 
-
-
-
-
-
-
-
-
+*/
+let str = String(12345)
+alert (Number(str[4])+ Number(str[3]) + Number(str[2]) + Number(str[1]) + Number(str[0]))
 
 
