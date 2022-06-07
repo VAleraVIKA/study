@@ -152,7 +152,30 @@ let str='abcde';
 let num=3;
 alert(str[num]);
 
+
+// последний символ строки : задача 1
+let str='abcde';
+let last=str.length -1;
+alert(str[str.length -1]);
+
+
+// задача 2
+let str='abcde';
+let last= str.length -2;
+alert(str[str.length -2]);
+
+//задача 3
+let str='abcde';
+let last=str.length -3;
+alert(str[str.length -3]);
+
  */
+
+
+
+
+
+
 
 
 
