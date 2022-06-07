@@ -107,5 +107,4 @@ alert (num1 + num2);
 
 let test = Boolean(1 / 0);
 alert(test);
-
  */
