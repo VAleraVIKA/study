@@ -107,4 +107,57 @@ alert (num1 + num2);
 
 let test = Boolean(1 / 0);
 alert(test);
+
+ // получение символов : задача 1.
+let str ="abcde";
+let num=0;
+alert(str[num]);
+
+
+let str ='abcdt'
+let num =2;
+alert(str[num]);
+
+
+let str ='abcde';
+let num =4;
+alert(str[num]);
+
+
+
+//получение символов : задача 2
+let str ='abcde';
+let num=4;
+alert(str[num]);
+
+let str ='abcde';
+let num=3;
+alert(str[num]);
+
+let str='abcde'
+let num=2;
+alert(str[num]);
+
+let str ='abcde';
+let num=1;
+alert(str[num]);
+
+let str='abcde';
+let num=0;
+alert(str[num])
+
+
+// получение символов : задача 3
+let str='abcde';
+let num=3;
+alert(str[num]);
+
  */
+
+
+
+
+
+
+
+
