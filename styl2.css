@@ -465,5 +465,104 @@ li:empty{color: red;
     height: 40px;
     border: 1px solid green;
 }
+// Наложение элементов по оси Z : задача 1
+
+#elem1{
+    position: absolute;
+    top: 90px;
+    left: 60px;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
+#elem2{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    z-index: 2;
+}
+#elem3{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    z-index: 1;
+}
+// задача 2
+
+#elem1{
+    position: absolute;
+    top: 90px;
+    left: 60px;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 3;
+
+}
+#elem2{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    z-index: 2;
+}
+#elem3{
+    position: absolute;
+    top: 160px;
+    left: 120px;
+
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    z-index: 1;
+
+}
+// задача 3
+
+#elem1{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    z-index: 3;
+
+}
+#elem2{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+#elem3 {
+    position: absolute;
+    top: 200px;
+    left: 160px;
+
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    z-index: 1;
+}
+
 
  */
