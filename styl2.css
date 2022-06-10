@@ -193,5 +193,36 @@ li:empty{color: red;
     background-color: green;
 }
 
+//Относительное позиционирование: задача 1
+
+#elem1 {
+    position: relative;
+   top: 40px;
+    left: 150px;
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#elem2{
+    position: relative;
+    top: 15px;
+    left: 230px;
+
+
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+#elem3 {
+    position: relative;
+    top: 5px;
+    left: 320px;
+
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
  */
 
