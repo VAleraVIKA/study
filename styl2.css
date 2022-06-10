@@ -435,6 +435,35 @@ li:empty{color: red;
     border: 1px solid green;
 
 }
+//Отрицательные значения при позиционировании задача 1
+
+#parent{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border: 1px solid red;
+
+}
+#child1{
+    position: absolute;
+    top: 50px;
+    left: 260px;
+
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+
+
+}
+#child2{
+    position: absolute;
+    top: 50px;
+    right: 260px;
+
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+}
 
  */
-
