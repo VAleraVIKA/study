@@ -522,7 +522,7 @@ border-bottom: red 2px ridge;
     border: 5px ;
 }
 
- */
+
 body {
     background-attachment: scroll;
     background-image: url("bg (1).png")
@@ -865,5 +865,22 @@ span{
     border: 1px solid green; // задача 6
 }
 
- */
 
+
+#elem {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    width: 550px;
+    height: 1400px;
+    border: 1px solid green;
+}
+
+#content {
+    margin: 0 auto;
+    width: 500px;
+    text-align: justify;
+    font: 16px Arial;
+}
+
+ */
