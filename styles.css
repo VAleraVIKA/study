@@ -883,4 +883,18 @@ span{
     font: 16px Arial;
 }
 
+
+
+
+div{
+    width: 800px;
+    text-align: justify;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+
  */
