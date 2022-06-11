@@ -171,4 +171,30 @@ let test = String(12345);
 alert ( test[4] + test[3] + test[2] + test[1] + test[0])
 
 
+
+let num = 47;
+num +=7;
+num -=18;
+num *=10;
+num /=15;
+alert(num);
+
+
+let num = 10;
+num++;
+num++;
+num--;
+alert(num)
+
+// Неточные вычисления: ЗАДАЧА 1
+
+
+let a = 0.1 * 0.2;
+alert(+a.toFixed((2)));
+
+// задача 2
+
+let a=0.3 - 0.1;
+alert(0.3 -  0.1);
+
  */
