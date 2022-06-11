@@ -197,4 +197,44 @@ alert(+a.toFixed((2)));
 let a=0.3 - 0.1;
 alert(0.3 -  0.1);
 //
+
+
+prompt('Ваше имя?')
+
+// Функция prompt : ПРИМЕР.
+
+let name=prompt('Ваше имя?');
+alert ('Ваше имя:' + name);
+
+//  ЗАДАЧА 1
+
+let age=prompt('Ваш возраст?');
+alert('Ваш возраст:' + age);
+
+//Проблема с типами: задача 2
+
+let num1 = prompt('Введите первое число');
+let num2 = prompt('Введите второе число');
+
+alert( Number(num1) +Number (num2));
+
+// задача 3
+
+let num1 = prompt('Введите первую сторону квадрата');
+let num2 = prompt('Введите  вторую сторону квадрата');
+let num3 =prompt('Введите третью сторону квадрата');
+let num4 =prompt('Введите четвертую сторону квадрата ')
+alert(Number(num1) + Number(num2) + Number(num3) + Number(num4));
+
+// задача 4  ?
+
  */
+
+
+
+
+
+
+
+
+
