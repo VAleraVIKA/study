@@ -226,7 +226,28 @@ let num3 =prompt('Введите третью сторону квадрата');
 let num4 =prompt('Введите четвертую сторону квадрата ')
 alert(Number(num1) + Number(num2) + Number(num3) + Number(num4));
 
-// задача 4  ?
+// задача 4
+let a=prompt('Сторона прямоугольника?');
+let b=prompt('Другая сторона?');
+let p=(Number(a) +Number (b)) * 2;
+alert(p);
+
+
+
+// Вывод текста в документ: задача 1
+document.write('<b> Какой нибудь текс </b>');
+
+//задача 2
+document.write('<em> Прекрасный день</em>')
+
+// задача 3 ?
+
+// Задача 4
+document.write('1 <br>');
+document.write('2 <br>');
+document.write('3 <br>');
+document.write('4 <br>');
+document.write('5 <br>');
 
  */
 
